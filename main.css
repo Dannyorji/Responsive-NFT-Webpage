@@ -57,6 +57,7 @@ a {
   border-radius: 13px;
   color: black;
   font-weight: bolder;
+  cursor: pointer;
 }
 .nav .fas {
   display: none;
