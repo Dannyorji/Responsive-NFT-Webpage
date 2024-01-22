@@ -1,15 +1,15 @@
-// console.log(EventTarget);
-const newlink = document.querySelector(".newlinks");
+
+const newLink = document.querySelector(".newlinks");
 const body = document.querySelector("body");
 let section2cardcontainer = document.querySelector(".section2cardcontainer");
 const handleShowSideBar = () => {
-  newlink.classList.add("newlinksShown");
+  newLink.classList.add("newlinksShown");
   body.classList.add("bodyunscroll");
 };
-const handleremoveSideBar = () => {
+const handleRemoveSideBar = () => {
   console.log(EventTarget);
-  const newlink = document.querySelector(".newlinks");
-  newlink.classList.remove("newlinksShown");
+  const newLink = document.querySelector(".newlinks");
+  newLink.classList.remove("newlinksShown");
   body.classList.remove("bodyunscroll");
 };
 let scrollHandleRight = () => {

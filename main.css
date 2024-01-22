@@ -5,30 +5,25 @@
   box-sizing: border-box;
 }
 html {
-  --Background: #0f0f10;
-  --ButtonColor: grey;
+  --Background: black;
+  --ButtonColor: #696cff;
   font-size: 16px;
 }
 body {
   background-color: var(--Background);
   color: #fff;
   font-family: "Jost", sans-serif;
-  /* padding-bottom: 90px; */
 }
 a {
   text-decoration: none;
 }
 .bg {
-  background: url(./myimages/dark\ theme.png);
-  /* min-height: 100vh; */
-  /* max-height: 800px; */
-
+  background: url();
   padding: 0 5% 100px;
 }
 .nav {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   padding: 30px;
   max-width: 1440px;
   margin: auto;
@@ -49,7 +44,7 @@ a {
   margin-left: 50px;
 }
 .nav-button {
-  background-color: grey;
+  background-color: #696cff;
   padding: 5px 19px;
   border: none;
   font-size: 0.9rem;
@@ -86,6 +81,10 @@ a {
   padding: 10px 0;
   border-radius: 12px;
   color: white;
+  transition: 0.5s;
+}
+.section-1-text-button:hover {
+  background-color: #696cff;
 }
 .section-1 .collectibles {
   color: grey;
@@ -184,8 +183,12 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.section-2-header a:hover {
+  background-color: #696cff;
+}
 .section-2-header a {
   border: 1px solid var(--ButtonColor);
+  transition: 0.5s;
   border-radius: 8px;
   color: white;
   padding: 8px 10px;
@@ -206,7 +209,6 @@ a {
 .section-2-card {
   margin-top: 50px;
   min-width: 300px;
-  /* height: 400px; */
 }
 .section-2-background-img-container {
   max-width: 400px;
@@ -230,7 +232,9 @@ a {
 }
 .section-2-card-sub {
   padding: 20px 10px;
-  background-color: rgb(25, 23, 23);
+  background-color: black;
+  border: 1px solid rgba(182, 133, 133, 0.221);
+  border-radius: 7px;
 }
 .section-2-card-sub img {
   width: 40px;
@@ -255,7 +259,7 @@ a {
   display: flex;
 }
 .section-2-sub a {
-  background-color: #090a10;
+  background-color: #696cff;
   border-color: var(--ButtonColor);
   color: #fff;
   padding: 4px;
@@ -267,7 +271,6 @@ a {
   max-width: 1440px;
   margin: auto;
   margin-top: 100px;
-  background: url(./myimages/dark\ theme.png);
   border-radius: 10px;
 }
 .section-3-bg {
@@ -329,7 +332,11 @@ a {
 .gray {
   color: grey;
 }
+.section-4-header a:hover {
+  background-color: #696cff;
+}
 .section-4-header a {
+  transition: 0.5s;
   color: #fff;
   text-decoration: none;
   border: 1px solid grey;
@@ -381,7 +388,8 @@ a {
   border-radius: 10px;
 }
 footer {
-  background: url(./myimages/dark\ theme.png);
+  border-top: 1px solid rgba(182, 133, 133, 0.221);
+  margin-top: 20px;
 }
 .footerbg {
   max-width: 1440px;
@@ -424,7 +432,7 @@ footer a {
 }
 .footerInput a {
   position: absolute;
-  background-color: #423f3f;
+  background-color: #696cff;
   margin-top: 0;
   right: 0;
   top: 0;
